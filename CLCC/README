@@ -1,0 +1,7 @@
+This program generates the intermediate representation 
+(ptx file for NVIDIA) starting from the cl source file.
+
+synthax : clcc -o outputfile -c inputfile
+
+The intermediate representation can be used by the host 
+code to generate the cl_program through clCreateProgramWithBinary.
